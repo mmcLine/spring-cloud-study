@@ -6,6 +6,10 @@
     <modules>
         <module>study-eureka-server</module>
         <module>study-eureka-client</module>
+        <module>study-trade-api</module>
+        <module>study-user-api</module>
+        <module>study-user</module>
+        <module>study-trade</module>
     </modules>
 
     <parent>

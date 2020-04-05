@@ -9,19 +9,25 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>study-eureka-client</artifactId>
+    <artifactId>study-user</artifactId>
+
 
     <dependencies>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-         </dependency>
-
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
 
+        <!--  本地依赖-->
+        <dependency>
+            <artifactId>study-user-api</artifactId>
+            <groupId>com.mmc</groupId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
+
 </project>
