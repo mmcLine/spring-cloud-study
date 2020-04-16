@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: study-trade
+  cloud:
+    config:
+      uri: http://localhost:9100
+      profile: test
+      label: master
+      username: root
+      password: 123456

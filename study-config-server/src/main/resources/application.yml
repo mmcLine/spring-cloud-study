@@ -1,0 +1,28 @@
+server:
+  port: 9100
+spring:
+  application:
+    name: study-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/mmcLine/cloudconfigTest.git
+          username: mmcLine
+          password: 0490218292
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"
+

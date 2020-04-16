@@ -10,6 +10,8 @@
         <module>study-user-api</module>
         <module>study-user</module>
         <module>study-trade</module>
+        <module>study-zuul</module>
+        <module>study-config-server</module>
     </modules>
 
     <parent>
