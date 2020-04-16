@@ -8,8 +8,8 @@ spring:
       server:
         git:
           uri: https://github.com/mmcLine/cloudconfigTest.git
-          username: mmcLine
-          password: 0490218292
+          username: xxxxxxx
+          password: xxxxxxx
     bus:
       enabled: true
       trace:
