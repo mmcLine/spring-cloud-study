@@ -23,7 +23,7 @@ public class TradeController {
 
     @RequestMapping(value = "/testTrade/{userid}",method = RequestMethod.GET)
     public String testTrade(@PathVariable Integer userid){
-        int i=1/0;
+//        int i=1/0;
         User user= userApi.getUserById(userid);
         String name = user.getName();
         System.out.println("用户"+name+"下单成功....");
